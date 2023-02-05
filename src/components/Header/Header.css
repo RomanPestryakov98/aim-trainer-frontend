@@ -1,0 +1,66 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	min-height: 116px;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	box-sizing: border-box;
+	padding: 0 30px;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+	gap: 17px;
+}
+
+.header__logo img {
+	width: 57px;
+	font-size: 20px;
+}
+
+.header__list {
+	display: flex;
+	gap: 20px;
+}
+
+.header__link {
+	transition: color 0.3s ease 0s;
+}
+.header__item:hover .header__link {
+	color: #16d9e3;
+}
+
+.header__link_nickname {
+ 	color: grey;
+	margin-right: -12px;
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		z-index: 99;
+	}
+	.header__list {
+		width: 100%;
+		position: absolute;
+		height: 100vh;
+		flex-direction: column;
+		align-items: center;
+		right: -100%;
+		top: 0;
+		padding: 100px 0 90px;
+		background-color: #001624;
+		transition: right 0.3s ease 0s;
+	}
+
+	.menu-open .header__list {
+		right: 0;
+	}
+
+	.header__link {
+		font-size: 30px;
+	}
+}

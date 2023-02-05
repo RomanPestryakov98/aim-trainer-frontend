@@ -1,0 +1,31 @@
+.tab-content__score {
+	line-height: 28px;
+}
+
+.tab-content__name {
+	flex: 1 1 auto;
+	line-height: 28px;
+}
+
+.tab-content__item {
+	display: flex;
+	padding: 0 25px;
+	font-weight: 400;
+	border-bottom: 1px solid white;
+	padding: 7px 0;
+	font-size: 17px;
+}
+
+.tab-content__item_active {
+	color: #16d9e3;
+	font-weight: 600;
+}
+
+.tab-content__item:last-child {
+	margin-bottom: 0;
+}
+
+.tab-content__num {
+	line-height: 28px;
+	margin-right: 8px;
+}

@@ -1,0 +1,37 @@
+.time__title {
+	text-align: center;
+	font-size: 38px;
+	margin-bottom: 37px;
+}
+
+.board-time {
+	background-color: #002136;
+	width: 100%;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.board-time__item {
+	border: 1px solid white;
+	margin-bottom: 30px;
+	min-height: 92px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 46px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+
+.board-time__item:hover {
+	transform: translateY(-10px);
+	border: 1px solid #16d9e3;
+	color: #16d9e3;
+}
+
+.board-time__item:last-child {
+	margin-bottom: 0;
+}
