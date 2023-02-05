@@ -1,0 +1,14 @@
+.small-screens {
+	display: none;
+}
+
+.small-screens__title {
+	color: red;
+	text-align: center;
+}
+
+@media screen and (max-width: 992px)  {
+	.small-screens {
+		display: flex;
+	}
+}
