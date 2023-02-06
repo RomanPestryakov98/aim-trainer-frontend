@@ -1,0 +1,28 @@
+.cursor-green-container {
+	position: relative;
+	width: 24px;
+	height: 24px;
+}
+
+.cursor-green {
+	background-color: green;
+	width: 2px;
+	height: 10px;
+	position: absolute;
+}
+
+.cursor-green__bot {
+	bottom: 0;
+}
+
+.cursor-green__top {
+	top: 0;
+}
+
+.cursor-green__left {
+	left: 0;
+}
+
+.cursor-green__right {
+	right: 0;
+}
